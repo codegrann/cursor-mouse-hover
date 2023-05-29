@@ -1,6 +1,6 @@
 body{
     background-color: rgb(53, 67, 79);
-    cursor:wait;
+    cursor:grabbing;
 }
 
 #txt{
@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: sans,serif, Times, Georgia, 'Times New Roman';
     font-size: 3rem;
     text-align: center;
     color: rgb(128, 163, 195);
