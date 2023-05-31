@@ -4,7 +4,7 @@ body{
 }
 
 #txt{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* margin: ; */
     height: 100lvh;
     display: flex;
@@ -18,8 +18,8 @@ body{
 }
 #follow{
     position: absolute;
-    /* top: 30%; */
-    /* left: 50%; */
+    top: 20%;
+    left: 50%;
     width: 50px;
     height: 50px;
     background-color: rgb(6, 255, 31);
