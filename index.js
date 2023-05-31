@@ -7,11 +7,11 @@ let container = document.querySelector("#txt");
 
 container.onmouseover = function (e) {
     // console.log(e.target);
-    let xPos = e.clientX;
+    let xPos = e.clientX*0.073333;
     let yPos = e.clientY * 0.157480;
     console.log(xPos, yPos);
-    followCursor.style.left = `${xPos}`;
-    followCursor.style.top = `(${yPos})px`;
+    followCursor.style.left = `${xPos}%`;
+    followCursor.style.top = `${yPos}%`;
     followCursor.style.color = `red`;
 }
 
