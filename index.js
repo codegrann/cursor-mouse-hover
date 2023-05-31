@@ -5,9 +5,10 @@ let container=document.querySelector("#txt");
     // console.log(e.clientX , e.clientY);
 // }
 
-container.onmouseout=function(e){
+container.onmouseover=function(e){
     console.log(e.target);
     console.log(e.clientX , e.clientY);
+    followCursor.style.left=e.clientX;
 }
 
 
