@@ -20,8 +20,8 @@ body{
     position: absolute;
     top: 30%;
     left: 50%;
-    width: 15px;
-    height: 15px;
+    width: 150px;
+    height: 150px;
     background-color: rgb(6, 255, 31);
     border-radius: 50%;
 }

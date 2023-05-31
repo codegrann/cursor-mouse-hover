@@ -1,6 +1,8 @@
-console.log("It works");
 let followCursor=document.querySelector("#follow");
 let container=document.querySelector("#txt");
-followCursor.onhover=function(e){
+followCursor.onmouseout=function(e){
     console.log(e.target);
+    console.log(e.clientX , e.clientY);
 }
+
+console.log("It is not working");
