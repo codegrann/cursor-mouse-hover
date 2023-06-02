@@ -1,6 +1,6 @@
-let followCursor = document.querySelector("#follow1");
+let follow1 = document.querySelector("#follow1");
 let container = document.querySelector("#txt");
-// followCursor.onmouseout=function(e){
+// follow1.onmouseout=function(e){
 // console.log(e.target);
 // console.log(e.clientX , e.clientY);
 // }
@@ -12,9 +12,9 @@ function move (e) {
     let xPos = e.clientX*0.073333;
     let yPos = e.clientY * 0.157480;
     console.log(xPos, yPos);
-    followCursor.style.top = `${yPos}%`;
-    followCursor.style.left = `${xPos}%`;
-    followCursor.style.color = `red`;
+    follow1.style.top = `${yPos}%`;
+    follow1.style.left = `${xPos}%`;
+    follow1.style.color = `red`;
 }
 
 
