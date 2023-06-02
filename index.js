@@ -1,9 +1,7 @@
-let follow1 = document.querySelector("#follow1");
-let container = document.querySelector("#txt");
-// follow1.onmouseout=function(e){
-// console.log(e.target);
-// console.log(e.clientX , e.clientY);
-// }
+// let follow1 = document.querySelector("#follow1");
+let container = document.querySelector("#container");
+
+// Adding eventlisteners
 container.addEventListener('mousemove', move)
 container.addEventListener('mouseover', move)
 container.addEventListener('click', move)
@@ -11,11 +9,14 @@ function move (e) {
     // console.log(e.target);
     let xPos = e.clientX*0.073333;
     let yPos = e.clientY * 0.157480;
-    console.log(xPos, yPos);
+
+    // moving box1
     follow1.style.top = `${yPos}%`;
     follow1.style.left = `${xPos}%`;
-    follow1.style.color = `red`;
+    // moving box2
+    follow2.style.top = `${yPos}%`;
+    follow2.style.left = `${xPos}%`;
+    // moving box3
+    follow3.style.top = `${yPos}%`;
+    follow3.style.left = `${xPos}%`;
 }
-
-
-console.log("It is not working");

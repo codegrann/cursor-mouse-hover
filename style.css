@@ -3,7 +3,7 @@ body{
     cursor:grabbing;
 }
 
-#txt{
+#container{
     /* border: 2px solid red; */
     /* margin: ; */
     height: 100lvh;
@@ -22,7 +22,6 @@ body{
     left: 50%;
     width: 20px;
     height: 20px;
-    /* background-color: rgb(6, 255, 31); */
     border-radius: 50%;
 }
 #follow1{
@@ -31,9 +30,9 @@ body{
 }
 #follow2{
     background-color: rgb(255, 251, 6);
-    transition: all 700ms cubic-bezier(0.08, 0, 0.78, 1.32);
+    transition: all 900ms cubic-bezier(0.08, 0, 0.78, 1.32);
 }
 #follow3{
     background-color: rgb(255, 48, 6);
-    transition: all 200ms cubic-bezier(0.08, 0, 0.78, 1.32);
+    transition: all 500ms cubic-bezier(0.08, 0, 0.78, 1.32);
 }
