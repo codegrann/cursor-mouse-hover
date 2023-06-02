@@ -5,7 +5,7 @@ let container = document.querySelector("#txt");
 // console.log(e.clientX , e.clientY);
 // }
 
-container.onmouseover = function (e) {
+container.onclick = function (e) {
     // console.log(e.target);
     let xPos = e.clientX*0.073333;
     let yPos = e.clientY * 0.157480;
