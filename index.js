@@ -1,4 +1,4 @@
-let followCursor = document.querySelector("#follow");
+let followCursor = document.querySelector("#follow1");
 let container = document.querySelector("#txt");
 // followCursor.onmouseout=function(e){
 // console.log(e.target);
