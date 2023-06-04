@@ -1,4 +1,3 @@
-// let follow1 = document.querySelector("#follow1");
 let container = document.querySelector("#container");
 
 // Adding eventlisteners
