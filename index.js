@@ -1,5 +1,5 @@
 let container = document.querySelector("#container");
-console.log(document.getElementsByTagName("script"))
+
 // Adding eventlisteners
 container.addEventListener('mousemove', move)
 container.addEventListener('mouseover', move)
