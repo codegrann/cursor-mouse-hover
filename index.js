@@ -1,5 +1,5 @@
 let container = document.querySelector("#container");
-console.log(document.getElementsByClassName("followers"))
+console.log(document.getElementsByTagName("div"))
 // Adding eventlisteners
 container.addEventListener('mousemove', move)
 container.addEventListener('mouseover', move)
