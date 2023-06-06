@@ -14,6 +14,9 @@ function move (e) {
     let xPos = e.clientX*0.073333;
     let yPos = e.clientY * 0.157480;
 
+    if(window.innerWidth<=957){
+        container.style.color="red"
+    }
     // moving box1
     follow1.style.top = `${yPos}%`;
     follow1.style.left = `${xPos}%`;
