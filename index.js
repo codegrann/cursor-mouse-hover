@@ -20,11 +20,6 @@ function move (e) {
     follow3.style.left = `${xPos}%`;
 }
 
-for(var i=0; i<4; i++){
-    (()=> console.log(i))();
-    // console.log(i);
-}
-
 
 console.log(Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0));
 console.log(Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0));
