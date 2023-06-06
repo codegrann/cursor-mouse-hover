@@ -15,14 +15,26 @@ function move (e) {
     let xPos = e.clientX;
     let yPos = e.clientY;
 
-    switch(vw){
-        case 290:
-            xPos=e.clientX * 0.3448275;
-            container.style.color="red"
-            break;
-        default:
-            xPos=e.clientX;
-    }
+    xPos=vw<=290? e.clientX * 0.3448275: e.clientX;
+    yPos=vh<=400? e.clientY * 0.25: e.clientY;
+    // switch(vw){
+        // case 290:
+            // xPos=e.clientX * 0.3448275;
+            // container.style.color="red"
+            // break;
+        // default:
+            // xPos=e.clientX;
+    // }
+
+    // switch(vh){
+        // case 290:
+            // xPos=e.clientX * 0.3448275;
+            // container.style.color="red"
+            // break;
+        // default:
+            // xPos=e.clientX;
+    // }
+
 
     follow1.style.top = `${yPos}%`;
     follow1.style.left = `${xPos}%`;
