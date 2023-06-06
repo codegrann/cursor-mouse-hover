@@ -22,5 +22,9 @@ function move (e) {
 
 for(var i=0; i<4; i++){
     setTimeout(()=> console.log(i), 0);
-    console.log(i);
+    // console.log(i);
 }
+
+
+console.log(Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0));
+console.log(Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0));
