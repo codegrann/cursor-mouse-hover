@@ -10,11 +10,12 @@ container.addEventListener('click', move)
 // console.log(Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0));
 
 function move (e) {
-    // console.log(e.target);
+    const vw=window.innerWidth;
+    const vh=window.innerHeight;
     let xPos = e.clientX*0.073333;
     let yPos = e.clientY * 0.157480;
 
-    if(window.innerWidth<=957){
+    if(vw<=957){
         container.style.color="red"
     }
     // moving box1
