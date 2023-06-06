@@ -17,6 +17,7 @@ function move (e) {
 
     if(vw<=957){
         container.style.color="red"
+        xPos = e.clientX*0.3448275
     }
     // moving box1
     follow1.style.top = `${yPos}%`;
