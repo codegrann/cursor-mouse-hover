@@ -12,14 +12,18 @@ container.addEventListener('click', move)
 function move (e) {
     const vw=window.innerWidth;
     const vh=window.innerHeight;
-    let xPos = e.clientX*0.073333;
-    let yPos = e.clientY * 0.157480;
+    let xPos = e.clientX;
+    let yPos = e.clientY;
 
-    if(vw<=957){
-        container.style.color="red"
-        xPos = e.clientX*0.3448275
+    switch(vw){
+        case 290:
+            xPos=e.clientX * 0.3448275;
+            container.style.color="red"
+            break;
+        default:
+            xPos=e.clientX;
     }
-    // moving box1
+
     follow1.style.top = `${yPos}%`;
     follow1.style.left = `${xPos}%`;
     // moving box2
