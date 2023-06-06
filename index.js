@@ -4,6 +4,11 @@ let container = document.querySelector("#container");
 container.addEventListener('mousemove', move)
 container.addEventListener('mouseover', move)
 container.addEventListener('click', move)
+
+// GETTING VIEWPORT DIEMNSIONS
+// console.log(Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0));
+// console.log(Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0));
+
 function move (e) {
     // console.log(e.target);
     let xPos = e.clientX*0.073333;
@@ -21,5 +26,5 @@ function move (e) {
 }
 
 
-console.log(Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0));
-console.log(Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0));
+console.log(document.documentElement.clientWidth);
+console.log(window.innerWidth)
