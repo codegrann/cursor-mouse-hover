@@ -47,9 +47,3 @@ function move(e) {
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
 
-let z=0;
-// z++;
-console.log(z++)
- let x=0;
-//  ++x;
- console.log(++x);
