@@ -47,3 +47,4 @@ function move(e) {
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
 
+console.log('%c This is red', 'color: red; font-size: 2rem; font-family: ; font-weight:bold; font-variant:small-caps; text-transform: uppercase;')
