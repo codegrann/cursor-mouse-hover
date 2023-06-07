@@ -12,8 +12,8 @@ container.addEventListener('click', move)
 function move(e) {
     const vw = window.innerWidth;
     const vh = window.innerHeight;
-    let xPos = e.clientX * 0.06999957;
-    let yPos = e.clientY * 0.1821493;
+    let xPos = e.clientX * 0.07259957;
+    let yPos = e.clientY * 0.1551493;
 
     // setting x positions based on viewport width
     // xPos = vw <= 290 ? e.clientX * 0.3448275 : 30;
