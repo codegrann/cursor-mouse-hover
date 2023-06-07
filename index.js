@@ -47,4 +47,5 @@ function move(e) {
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
 
-console.log("6"/"3")
+
+console.log(Boolean(true))
