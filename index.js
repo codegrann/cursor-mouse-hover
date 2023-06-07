@@ -46,7 +46,3 @@ function move(e) {
 
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
-
-for(i=0; i<=4; i++){
-    setTimeout(()=> console.log(i));
-}
