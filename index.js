@@ -54,11 +54,11 @@ console.log(window.innerWidth)
 // func()
 
 
-let x=0;
-// y=x++;
-// z=++x;
-// console.log(y);
-// console.log(z)
-
-console.log(x++)
-console.log(++x)
+const user={
+    name:'John',
+    address:{
+        street:'123 Main St',
+        city: 'New York',
+        country: 'USA'
+    }
+}
