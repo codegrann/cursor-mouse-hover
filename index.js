@@ -62,3 +62,5 @@ const user={
         country: 'USA'
     }
 }
+
+console.log(user['name'])
