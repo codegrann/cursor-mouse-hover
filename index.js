@@ -52,15 +52,3 @@ console.log(window.innerWidth)
     // console.log("function")
 // }
 // func()
-
-
-const user={
-    name:'John',
-    address:{
-        street:'123 Main St',
-        city: 'New York',
-        country: 'USA'
-    }
-}
-
-console.log(user?.address?.city)
