@@ -47,3 +47,8 @@ function move(e) {
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
 
+// func()
+// function(){
+    // console.log("function")
+// }
+// func()
