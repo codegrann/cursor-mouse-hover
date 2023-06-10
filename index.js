@@ -52,3 +52,13 @@ console.log(window.innerWidth)
     // console.log("function")
 // }
 // func()
+
+
+let x=0;
+// y=x++;
+// z=++x;
+// console.log(y);
+// console.log(z)
+
+console.log(x++)
+console.log(++x)
