@@ -50,4 +50,4 @@ console.log(window.innerWidth)
 console.log(4**2, Math.pow(4,2))
 var a=b=2;
 
-console.log(2+2/2*2)
+console.log(2)
