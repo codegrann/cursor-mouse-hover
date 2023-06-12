@@ -48,3 +48,4 @@ console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
 
 console.log(4**2, Math.pow(4,2))
+console.log(Boolean(' '))
