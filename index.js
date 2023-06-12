@@ -47,4 +47,10 @@ function move(e) {
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth) //inner/outer
 
-console.log('1' ==2)
+function sort(arr){
+  let sorted=arr.sort((a,b)=>{
+    // return b-a;
+  });
+  console.log(sorted);
+}
+sort([2,12]);
