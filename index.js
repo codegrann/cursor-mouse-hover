@@ -47,9 +47,4 @@ function move(e) {
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
 
-
-function resolveAfter10Seconds(){
-    return new Promise(resolve =>{
-        setTimeout(<FUNCTION>('resolved)</FUNCTION>, 10000)
-    })
-}
+console.log(4**2, Math.pow(4,2))
