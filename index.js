@@ -47,4 +47,4 @@ function move(e) {
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth) //inner/outer
 
-console.log(typeof NaN)
+console.log('1' ==2)
