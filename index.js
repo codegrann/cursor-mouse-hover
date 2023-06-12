@@ -48,6 +48,6 @@ console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
 
 console.log(4**2, Math.pow(4,2))
-let a=1,b=2;
+var a=b=2;
 
-console.log(3-(a=b+1))
+console.log(2+2/2*2)
