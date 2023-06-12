@@ -47,4 +47,3 @@ function move(e) {
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth)
 
-console.log(typeof(window.onload=prompt('enter yrs')));
