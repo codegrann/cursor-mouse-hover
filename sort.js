@@ -11,3 +11,7 @@ function sort(arr){
     console.log(n + sum(n-1));
   }
   sum(2)
+
+  let y=new RegExp('hi');
+  let sample='hi John';
+  console.log(y.test(sample));
