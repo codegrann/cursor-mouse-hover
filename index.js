@@ -46,3 +46,8 @@ function move(e) {
 
 console.log(document.documentElement.clientWidth);
 console.log(window.innerWidth) //inner/outer
+
+
+let y = /hi/;
+let sample = 'hi John';
+console.log(y.test(sample));
